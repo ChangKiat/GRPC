@@ -24,7 +24,7 @@ public final class userGrpc {
 
   private userGrpc() {}
 
-  public static final String SERVICE_NAME = "user";
+  public static final String SERVICE_NAME = "com.user.grpc.user";
 
   // Static method descriptors that strictly reflect the proto.
   private static volatile io.grpc.MethodDescriptor<com.user.grpc.User.LoginRequest,
@@ -45,7 +45,7 @@ public final class userGrpc {
               io.grpc.MethodDescriptor.<com.user.grpc.User.LoginRequest, com.user.grpc.User.APIResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
-                  "user", "login"))
+                  "com.user.grpc.user", "login"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   com.user.grpc.User.LoginRequest.getDefaultInstance()))
@@ -77,7 +77,7 @@ public final class userGrpc {
               io.grpc.MethodDescriptor.<com.user.grpc.User.Empty, com.user.grpc.User.APIResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
-                  "user", "logout"))
+                  "com.user.grpc.user", "logout"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   com.user.grpc.User.Empty.getDefaultInstance()))

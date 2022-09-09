@@ -15,7 +15,7 @@ public final class User {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface LoginRequestOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:LoginRequest)
+      // @@protoc_insertion_point(interface_extends:com.user.grpc.LoginRequest)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -39,11 +39,11 @@ public final class User {
         getPasswordBytes();
   }
   /**
-   * Protobuf type {@code LoginRequest}
+   * Protobuf type {@code com.user.grpc.LoginRequest}
    */
   public  static final class LoginRequest extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:LoginRequest)
+      // @@protoc_insertion_point(message_implements:com.user.grpc.LoginRequest)
       LoginRequestOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use LoginRequest.newBuilder() to construct.
@@ -112,13 +112,13 @@ public final class User {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.user.grpc.User.internal_static_LoginRequest_descriptor;
+      return com.user.grpc.User.internal_static_com_user_grpc_LoginRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.user.grpc.User.internal_static_LoginRequest_fieldAccessorTable
+      return com.user.grpc.User.internal_static_com_user_grpc_LoginRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.user.grpc.User.LoginRequest.class, com.user.grpc.User.LoginRequest.Builder.class);
     }
@@ -357,21 +357,21 @@ public final class User {
       return builder;
     }
     /**
-     * Protobuf type {@code LoginRequest}
+     * Protobuf type {@code com.user.grpc.LoginRequest}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:LoginRequest)
+        // @@protoc_insertion_point(builder_implements:com.user.grpc.LoginRequest)
         com.user.grpc.User.LoginRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.user.grpc.User.internal_static_LoginRequest_descriptor;
+        return com.user.grpc.User.internal_static_com_user_grpc_LoginRequest_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.user.grpc.User.internal_static_LoginRequest_fieldAccessorTable
+        return com.user.grpc.User.internal_static_com_user_grpc_LoginRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.user.grpc.User.LoginRequest.class, com.user.grpc.User.LoginRequest.Builder.class);
       }
@@ -404,7 +404,7 @@ public final class User {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.user.grpc.User.internal_static_LoginRequest_descriptor;
+        return com.user.grpc.User.internal_static_com_user_grpc_LoginRequest_descriptor;
       }
 
       @java.lang.Override
@@ -661,10 +661,10 @@ public final class User {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:LoginRequest)
+      // @@protoc_insertion_point(builder_scope:com.user.grpc.LoginRequest)
     }
 
-    // @@protoc_insertion_point(class_scope:LoginRequest)
+    // @@protoc_insertion_point(class_scope:com.user.grpc.LoginRequest)
     private static final com.user.grpc.User.LoginRequest DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.user.grpc.User.LoginRequest();
@@ -702,7 +702,7 @@ public final class User {
   }
 
   public interface APIResponseOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:APIResponse)
+      // @@protoc_insertion_point(interface_extends:com.user.grpc.APIResponse)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -721,11 +721,11 @@ public final class User {
     int getResponseCode();
   }
   /**
-   * Protobuf type {@code APIResponse}
+   * Protobuf type {@code com.user.grpc.APIResponse}
    */
   public  static final class APIResponse extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:APIResponse)
+      // @@protoc_insertion_point(message_implements:com.user.grpc.APIResponse)
       APIResponseOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use APIResponse.newBuilder() to construct.
@@ -793,13 +793,13 @@ public final class User {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.user.grpc.User.internal_static_APIResponse_descriptor;
+      return com.user.grpc.User.internal_static_com_user_grpc_APIResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.user.grpc.User.internal_static_APIResponse_fieldAccessorTable
+      return com.user.grpc.User.internal_static_com_user_grpc_APIResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.user.grpc.User.APIResponse.class, com.user.grpc.User.APIResponse.Builder.class);
     }
@@ -1014,21 +1014,21 @@ public final class User {
       return builder;
     }
     /**
-     * Protobuf type {@code APIResponse}
+     * Protobuf type {@code com.user.grpc.APIResponse}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:APIResponse)
+        // @@protoc_insertion_point(builder_implements:com.user.grpc.APIResponse)
         com.user.grpc.User.APIResponseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.user.grpc.User.internal_static_APIResponse_descriptor;
+        return com.user.grpc.User.internal_static_com_user_grpc_APIResponse_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.user.grpc.User.internal_static_APIResponse_fieldAccessorTable
+        return com.user.grpc.User.internal_static_com_user_grpc_APIResponse_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.user.grpc.User.APIResponse.class, com.user.grpc.User.APIResponse.Builder.class);
       }
@@ -1061,7 +1061,7 @@ public final class User {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.user.grpc.User.internal_static_APIResponse_descriptor;
+        return com.user.grpc.User.internal_static_com_user_grpc_APIResponse_descriptor;
       }
 
       @java.lang.Override
@@ -1274,10 +1274,10 @@ public final class User {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:APIResponse)
+      // @@protoc_insertion_point(builder_scope:com.user.grpc.APIResponse)
     }
 
-    // @@protoc_insertion_point(class_scope:APIResponse)
+    // @@protoc_insertion_point(class_scope:com.user.grpc.APIResponse)
     private static final com.user.grpc.User.APIResponse DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.user.grpc.User.APIResponse();
@@ -1315,15 +1315,15 @@ public final class User {
   }
 
   public interface EmptyOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:Empty)
+      // @@protoc_insertion_point(interface_extends:com.user.grpc.Empty)
       com.google.protobuf.MessageOrBuilder {
   }
   /**
-   * Protobuf type {@code Empty}
+   * Protobuf type {@code com.user.grpc.Empty}
    */
   public  static final class Empty extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:Empty)
+      // @@protoc_insertion_point(message_implements:com.user.grpc.Empty)
       EmptyOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use Empty.newBuilder() to construct.
@@ -1377,13 +1377,13 @@ public final class User {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.user.grpc.User.internal_static_Empty_descriptor;
+      return com.user.grpc.User.internal_static_com_user_grpc_Empty_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.user.grpc.User.internal_static_Empty_fieldAccessorTable
+      return com.user.grpc.User.internal_static_com_user_grpc_Empty_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.user.grpc.User.Empty.class, com.user.grpc.User.Empty.Builder.class);
     }
@@ -1534,21 +1534,21 @@ public final class User {
       return builder;
     }
     /**
-     * Protobuf type {@code Empty}
+     * Protobuf type {@code com.user.grpc.Empty}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:Empty)
+        // @@protoc_insertion_point(builder_implements:com.user.grpc.Empty)
         com.user.grpc.User.EmptyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.user.grpc.User.internal_static_Empty_descriptor;
+        return com.user.grpc.User.internal_static_com_user_grpc_Empty_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.user.grpc.User.internal_static_Empty_fieldAccessorTable
+        return com.user.grpc.User.internal_static_com_user_grpc_Empty_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 com.user.grpc.User.Empty.class, com.user.grpc.User.Empty.Builder.class);
       }
@@ -1577,7 +1577,7 @@ public final class User {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.user.grpc.User.internal_static_Empty_descriptor;
+        return com.user.grpc.User.internal_static_com_user_grpc_Empty_descriptor;
       }
 
       @java.lang.Override
@@ -1686,10 +1686,10 @@ public final class User {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:Empty)
+      // @@protoc_insertion_point(builder_scope:com.user.grpc.Empty)
     }
 
-    // @@protoc_insertion_point(class_scope:Empty)
+    // @@protoc_insertion_point(class_scope:com.user.grpc.Empty)
     private static final com.user.grpc.User.Empty DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new com.user.grpc.User.Empty();
@@ -1727,20 +1727,20 @@ public final class User {
   }
 
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_LoginRequest_descriptor;
+    internal_static_com_user_grpc_LoginRequest_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_LoginRequest_fieldAccessorTable;
+      internal_static_com_user_grpc_LoginRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_APIResponse_descriptor;
+    internal_static_com_user_grpc_APIResponse_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_APIResponse_fieldAccessorTable;
+      internal_static_com_user_grpc_APIResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_Empty_descriptor;
+    internal_static_com_user_grpc_Empty_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_Empty_fieldAccessorTable;
+      internal_static_com_user_grpc_Empty_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -1750,12 +1750,14 @@ public final class User {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\nuser.proto\"2\n\014LoginRequest\022\020\n\010username" +
-      "\030\001 \001(\t\022\020\n\010password\030\002 \001(\t\"<\n\013APIResponse\022" +
-      "\027\n\017responseMessage\030\001 \001(\t\022\024\n\014responseCode" +
-      "\030\002 \001(\005\"\007\n\005Empty2L\n\004user\022$\n\005login\022\r.Login" +
-      "Request\032\014.APIResponse\022\036\n\006logout\022\006.Empty\032" +
-      "\014.APIResponseB\017\n\rcom.user.grpcb\006proto3"
+      "\n\nuser.proto\022\rcom.user.grpc\"2\n\014LoginRequ" +
+      "est\022\020\n\010username\030\001 \001(\t\022\020\n\010password\030\002 \001(\t\"" +
+      "<\n\013APIResponse\022\027\n\017responseMessage\030\001 \001(\t\022" +
+      "\024\n\014responseCode\030\002 \001(\005\"\007\n\005Empty2\204\001\n\004user\022" +
+      "@\n\005login\022\033.com.user.grpc.LoginRequest\032\032." +
+      "com.user.grpc.APIResponse\022:\n\006logout\022\024.co" +
+      "m.user.grpc.Empty\032\032.com.user.grpc.APIRes" +
+      "ponseB\026\n\rcom.user.grpcZ\005/userb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -1769,23 +1771,23 @@ public final class User {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         }, assigner);
-    internal_static_LoginRequest_descriptor =
+    internal_static_com_user_grpc_LoginRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_LoginRequest_fieldAccessorTable = new
+    internal_static_com_user_grpc_LoginRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_LoginRequest_descriptor,
+        internal_static_com_user_grpc_LoginRequest_descriptor,
         new java.lang.String[] { "Username", "Password", });
-    internal_static_APIResponse_descriptor =
+    internal_static_com_user_grpc_APIResponse_descriptor =
       getDescriptor().getMessageTypes().get(1);
-    internal_static_APIResponse_fieldAccessorTable = new
+    internal_static_com_user_grpc_APIResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_APIResponse_descriptor,
+        internal_static_com_user_grpc_APIResponse_descriptor,
         new java.lang.String[] { "ResponseMessage", "ResponseCode", });
-    internal_static_Empty_descriptor =
+    internal_static_com_user_grpc_Empty_descriptor =
       getDescriptor().getMessageTypes().get(2);
-    internal_static_Empty_fieldAccessorTable = new
+    internal_static_com_user_grpc_Empty_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_Empty_descriptor,
+        internal_static_com_user_grpc_Empty_descriptor,
         new java.lang.String[] { });
   }
 

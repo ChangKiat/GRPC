@@ -14,7 +14,14 @@ public class GRPCClient {
 		// stub -generate from proto
 		userBlockingStub userStub =userGrpc.newBlockingStub(channel);
 		LoginRequest request = LoginRequest.newBuilder().setUsername("TA").setPassword("TA").build();
-		APIResponse response = userStub.login(request);
+		
+		//Connect API FROM JAVA TO JAVA
+		//APIResponse response = userStub.login(request);
+
+		//Connect FROM JAVA to GO
+		APIResponse response = APIResponse.getDefaultInstance();
+		response = userStub.login(request);
+
 		
 		System.out.println(response.getResponseMessage());
 

@@ -1,7 +1,9 @@
 syntax ="proto3";
 
+package com.user.grpc;
 
 option java_package = "com.user.grpc";
+option go_package = "/user";
 
 service user{
 	rpc login(LoginRequest) returns (APIResponse);

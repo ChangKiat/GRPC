@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.5
-// source: user.proto
+// source: user/user.proto
 
 package user
 
@@ -36,7 +36,7 @@ func NewUserClient(cc grpc.ClientConnInterface) UserClient {
 
 func (c *userClient) Login(ctx context.Context, in *LoginRequest, opts ...grpc.CallOption) (*APIResponse, error) {
 	out := new(APIResponse)
-	err := c.cc.Invoke(ctx, "/user.User/login", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/com.user.grpc.user/login", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -45,7 +45,7 @@ func (c *userClient) Login(ctx context.Context, in *LoginRequest, opts ...grpc.C
 
 func (c *userClient) Logout(ctx context.Context, in *Empty, opts ...grpc.CallOption) (*APIResponse, error) {
 	out := new(APIResponse)
-	err := c.cc.Invoke(ctx, "/user.User/logout", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/com.user.grpc.user/logout", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -94,7 +94,7 @@ func _User_Login_Handler(srv interface{}, ctx context.Context, dec func(interfac
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/user.User/login",
+		FullMethod: "/com.user.grpc.user/login",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(UserServer).Login(ctx, req.(*LoginRequest))
@@ -112,7 +112,7 @@ func _User_Logout_Handler(srv interface{}, ctx context.Context, dec func(interfa
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/user.User/logout",
+		FullMethod: "/com.user.grpc.user/logout",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(UserServer).Logout(ctx, req.(*Empty))
@@ -124,7 +124,7 @@ func _User_Logout_Handler(srv interface{}, ctx context.Context, dec func(interfa
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var User_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "user.User",
+	ServiceName: "com.user.grpc.user",
 	HandlerType: (*UserServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -137,5 +137,5 @@ var User_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "user.proto",
+	Metadata: "user/user.proto",
 }

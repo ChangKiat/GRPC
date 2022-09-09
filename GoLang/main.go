@@ -20,7 +20,7 @@ type server struct {
 	pb.UnimplementedUserServer
 }
 
-func (s *server) login(ctx context.Context, in *pb.LoginRequest) (*pb.APIResponse, error) {
+func (s *server) Login(ctx context.Context, in *pb.LoginRequest) (*pb.APIResponse, error) {
 	log.Printf("Received: %v", in.GetUsername())
 	return &pb.APIResponse{ResponseMessage: "Sucess Connect, Hello" + in.GetUsername(),ResponseCode:1}, nil
 }
